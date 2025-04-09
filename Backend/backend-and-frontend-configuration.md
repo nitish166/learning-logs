@@ -146,5 +146,3 @@
 3. Document the required environment variables for both backend and frontend.
 
 ---
-
-Let me know if you need further assistance! 🚀
