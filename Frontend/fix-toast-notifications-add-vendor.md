@@ -118,11 +118,7 @@ The AddVendor.jsx file was updated with the following changes:
 
 ---
 
-### **Instructions**
-1. Save the above content in a file named `fix-toast-notifications-add-vendor.md`.
-2. Place the file in your project directory for documentation purposes.
 
-Let me know if you need further assistance! 🚀
 
 
 
