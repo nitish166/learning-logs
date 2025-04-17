@@ -2,6 +2,8 @@
 
 ## 📅 Date: 17 April 2025
 
+---
+
 ## 1. **Manual Setup** (Vanilla React + Custom Config)
 
 You can create a React project from scratch by manually setting up tools.
@@ -29,42 +31,45 @@ You can create a React project from scratch by manually setting up tools.
 ## 2. **Create React App (CRA)**
 
 ```bash
-npx create-react-app my-app  # `npx` runs the create-react-app package without globally installing it
+npx create-react-app my-app
+```
 
 CRA generates a full React boilerplate with config.
 
-Pros:
-	•	Quick start with zero config
-	•	Includes Webpack, Babel, ESLint, etc.
-	•	Popular and well-supported
+### **Pros:**
 
-Cons:
-	•	Hard to customize without eject (removes the abstraction to allow full customization but makes future updates harder)
-	•	Heavy bundle size
-	•	Slower dev builds compared to modern tools
+- Quick start with zero config
+- Includes Webpack, Babel, ESLint, etc.
+- Popular and well-supported
 
+### **Cons:**
 
-## 3. **Using Vite (Recommended for Modern Development)**
+- Hard to customize without ejecting (removes the abstraction to allow full customization but makes future updates harder)
+- Heavy bundle size
+- Slower dev builds compared to modern tools
 
+---
+
+## 3. **Using Vite (✅ Recommended for Modern Development)**
 
 Vite uses ESBuild, a modern JavaScript bundler and minifier written in Go, under the hood for super-fast dev experience.
 
-Pros:
-	•	Lightning-fast HMR and build
-	•	Minimal config
-	•	Supports multiple frameworks
+### **Pros:**
 
-Cons:
-	•	Plugins and community support are still catching up (but rapidly maturing)
-	•	Slight learning curve for migration from CRA
+- Lightning-fast HMR and builds
+- Minimal config
+- Supports multiple frameworks
 
-⸻
+### **Cons:**
 
-```
+- Plugins and community support are still catching up (but rapidly maturing)
+- Slight learning curve if migrating from CRA
 
-    ## Best Practices for React Project Setup
+---
 
-    - Clean up unused CRA files (like logos/test files)
-    - Use Vite for performance and ease
-    - Use Manual setup to understand internals
-    - Use CRA for legacy projects or wide team compatibility
+## ✅ Best Practices for React Project Setup
+
+- Clean up unused CRA files (like logos/test files)
+- Use **Vite** for performance and ease
+- Try **manual setup** to understand internals
+- Use **CRA** for legacy projects or large team compatibility
