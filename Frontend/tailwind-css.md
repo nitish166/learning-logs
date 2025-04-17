@@ -1,6 +1,6 @@
 # Tailwind CSS - Learning Log
 
-This document is a personal log of all Tailwind CSS concepts I learn over time. Starting with today’s learnings:
+This document is a personal log of all Tailwind CSS concepts I learn over time.
 
 ---
 
@@ -8,7 +8,7 @@ This document is a personal log of all Tailwind CSS concepts I learn over time. 
 
 ---
 
-## Day 1: Basic Tailwind Concepts
+## Basic Tailwind Concepts
 
 ### Margin (m-, mt-, mb-, ml-, mr-)
 - Used to apply spacing outside the element.
