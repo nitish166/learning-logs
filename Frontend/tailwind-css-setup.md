@@ -32,17 +32,23 @@ module.exports = {
 }
 ```
 
-Update styles (src/index.css):
+### Add Tailwind Directives (src/index.css):
 
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 
-Import CSS in your entry file (index.js):
+### Import CSS in your entry file (src/index.js):
 
+```javascript
 import './index.css';
+```
 
-✅ Done! You can now use Tailwind classes in your JSX.
+### ✅ Done! 
+
+You can now use Tailwind classes in your JSX.
 
 
 ## 2. **Setup with Vite**
@@ -72,11 +78,13 @@ export default {
 }
 ```
 
-Add Tailwind Directives (src/index.css):
+### Add Tailwind Directives (src/index.css):
 
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 
 Tailwind v4 automatically removes unused styles using JIT and doesn’t require manual purge configuration.
 
