@@ -15,9 +15,11 @@ npx create-react-app my-app
 cd my-app
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+```
 
 Configure Tailwind (tailwind.config.js):
 
+```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -28,6 +30,7 @@ module.exports = {
   },
   plugins: [],
 }
+```
 
 Update styles (src/index.css):
 
@@ -39,8 +42,8 @@ Import CSS in your entry file (index.js):
 
 import './index.css';
 
-Done! You can now use Tailwind classes in your JSX.
-```
+✅ Done! You can now use Tailwind classes in your JSX.
+
 
 ## 2. **Setup with Vite**
 
@@ -55,6 +58,7 @@ npx tailwindcss init -p
 
 Configure Tailwind (tailwind.config.js):
 
+```js
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -66,6 +70,7 @@ export default {
   },
   plugins: [],
 }
+```
 
 Add Tailwind Directives (src/index.css):
 
@@ -73,7 +78,7 @@ Add Tailwind Directives (src/index.css):
 @tailwind components;
 @tailwind utilities;
 
-Tailwind v4 automatically removes unused styles with JIT and doesn’t require manual purge setup.
+Tailwind v4 automatically removes unused styles using JIT and doesn’t require manual purge configuration.
 
 ## ✅ Tailwind v4 Highlights:
 
