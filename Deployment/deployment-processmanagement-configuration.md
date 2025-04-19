@@ -1,5 +1,11 @@
 # TripoO Learning Log: Deployment, Process Management, and Configuration
 
+---
+
+## **Date**: 17 April 2025  
+
+---
+
 ## 1. Handling Port Conflicts & Process Managers
 - **Error**: `EADDRINUSE: address already in use :::3000`
 - **Cause**: Two processes binding the same port (e.g., pm2 + `npm start`).
